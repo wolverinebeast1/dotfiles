@@ -1,9 +1,0 @@
-# GIMP gimp-eraser-tool options
-
-(brush "Chalk 02")
-(dynamics "Dynamics Off")
-(palette "Color History")
-(brush-size 230)
-(brush-spacing 0.25)
-
-# end of gimp-eraser-tool options
