@@ -1,0 +1,4 @@
+2023-01-10 12:21:30.097 [info] update#ctor - updates are disabled as there is no update URL
+2023-01-10 12:21:33.704 [info] Starting extension host with pid 875 (fork() took 5 ms).
+2023-01-10 13:12:28.309 [info] Waiting for extension host with pid 875 to exit.
+2023-01-10 13:12:28.313 [info] Extension host with pid 875 exited with code: 0, signal: null.

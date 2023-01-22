@@ -1,0 +1,10 @@
+# GIMP gimp-airbrush-tool options
+
+(brush "Chalk 02")
+(dynamics "Dynamics Off")
+(gradient "FG to BG (RGB)")
+(palette "Color History")
+(brush-size 230)
+(brush-spacing 0.25)
+
+# end of gimp-airbrush-tool options

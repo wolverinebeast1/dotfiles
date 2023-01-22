@@ -1,0 +1,2 @@
+2023-01-10 12:21:37.323 [info] [perf] Render performance baseline is 30ms
+2023-01-10 12:21:44.857 [error] Error while registering log channel file:///home/wolverine/.config/Code%20-%20OSS/logs/20230110T122129/userDataSync.log Timed out while waiting for file to be created

@@ -1,0 +1,123 @@
+00:05:11.732: Using EGL/X11
+00:05:11.757: CPU Name: Intel(R) Core(TM) i5-9600K CPU @ 3.70GHz
+00:05:11.757: CPU Speed: 3700.529MHz
+00:05:11.757: Physical Cores: 6, Logical Cores: 6
+00:05:11.757: Physical Memory: 15836MB Total, 15092MB Free
+00:05:11.757: Kernel Version: Linux 5.15.85-1-lts
+00:05:11.757: Distribution: "Arch Linux" Unknown
+00:05:11.757: Session Type: x11
+00:05:11.757: Window System: X11.0, Vendor: The X.Org Foundation, Version: 1.21.1
+00:05:11.769: Qt Version: 6.4.1 (runtime), 6.4.1 (compiled)
+00:05:11.769: Portable mode: false
+00:05:11.978: OBS 28.1.2-2 (linux)
+00:05:11.978: ---------------------------------
+00:05:11.994: ---------------------------------
+00:05:11.994: audio settings reset:
+00:05:11.994: 	samples per sec: 48000
+00:05:11.994: 	speakers:        2
+00:05:11.994: 	max buffering:   960 milliseconds
+00:05:11.994: 	buffering type:  dynamically increasing
+00:05:12.013: ---------------------------------
+00:05:12.013: Initializing OpenGL...
+00:05:12.210: Loading up OpenGL on adapter NVIDIA Corporation NVIDIA GeForce GTX 1660 SUPER/PCIe/SSE2
+00:05:12.210: OpenGL loaded successfully, version 3.3.0 NVIDIA 525.60.11, shading language 3.30 NVIDIA via Cg compiler
+00:05:12.282: ---------------------------------
+00:05:12.282: video settings reset:
+00:05:12.282: 	base resolution:   1920x1080
+00:05:12.282: 	output resolution: 1280x720
+00:05:12.282: 	downscale filter:  Bicubic
+00:05:12.282: 	fps:               30/1
+00:05:12.282: 	format:            NV12
+00:05:12.282: 	YUV mode:          Rec. 709/Partial
+00:05:12.282: NV12 texture support not available
+00:05:12.282: P010 texture support not available
+00:05:12.300: Audio monitoring device:
+00:05:12.300: 	name: Default
+00:05:12.300: 	id: default
+00:05:12.301: ---------------------------------
+00:05:12.343: Failed to load 'en-US' text for module: 'decklink-captions.so'
+00:05:12.358: Failed to load 'en-US' text for module: 'decklink-output-ui.so'
+00:05:12.373: A DeckLink iterator could not be created.  The DeckLink drivers may not be installed
+00:05:12.373: Failed to initialize module 'decklink.so'
+00:05:13.792: [pipewire] No captures available
+00:05:13.849: v4l2loopback not installed, virtual camera disabled
+00:05:14.239: NVENC supported
+00:05:14.239: FFMPEG VAAPI supported
+00:05:14.300: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+00:05:14.300: 
+00:05:14.302: os_dlopen(/usr//lib/obs-plugins/obs-libfdk.so->/usr//lib/obs-plugins/obs-libfdk.so): libfdk-aac.so.2: cannot open shared object file: No such file or directory
+00:05:14.302: 
+00:05:14.302: Module '/usr//lib/obs-plugins/obs-libfdk.so' not loaded
+00:05:14.460: ---------------------------------
+00:05:14.460:   Loaded Modules:
+00:05:14.460:     text-freetype2.so
+00:05:14.460:     rtmp-services.so
+00:05:14.460:     obs-x264.so
+00:05:14.460:     obs-vst.so
+00:05:14.460:     obs-transitions.so
+00:05:14.460:     obs-outputs.so
+00:05:14.460:     obs-filters.so
+00:05:14.460:     obs-ffmpeg.so
+00:05:14.460:     linux-v4l2.so
+00:05:14.460:     linux-pulseaudio.so
+00:05:14.460:     linux-pipewire.so
+00:05:14.460:     linux-jack.so
+00:05:14.460:     linux-capture.so
+00:05:14.460:     linux-alsa.so
+00:05:14.460:     image-source.so
+00:05:14.460:     frontend-tools.so
+00:05:14.460:     decklink-output-ui.so
+00:05:14.460:     decklink-captions.so
+00:05:14.460: ---------------------------------
+00:05:14.460: ==== Startup complete ===============================================
+00:05:14.533: All scene data cleared
+00:05:14.533: ------------------------------------------------
+00:05:15.426: [rtmp-services plugin] Successfully updated file 'services.json' (version 216)
+00:05:15.426: [rtmp-services plugin] Successfully updated package (version 216)
+00:05:15.576: pulse-input: Server name: 'pulseaudio 16.1'
+00:05:15.576: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+00:05:15.576: pulse-input: Started recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo.monitor' (default)
+00:05:15.576: [Loaded global audio device]: 'Desktop Audio'
+00:05:15.576: pulse-input: Server name: 'pulseaudio 16.1'
+00:05:15.577: pulse-input: Audio format: s16le, 44100 Hz, 2 channels
+00:05:15.577: pulse-input: Started recording from 'alsa_output.pci-0000_01_00.1.hdmi-stereo.monitor' (default)
+00:05:15.577: [Loaded global audio device]: 'Mic/Aux'
+00:05:15.584: Switched to scene 'Scene'
+00:05:15.584: ------------------------------------------------
+00:05:15.584: Loaded scenes:
+00:05:15.584: - scene 'Scene':
+00:05:15.584: ------------------------------------------------
+00:05:35.440: adding 21 milliseconds of audio buffering, total audio buffering is now 21 milliseconds (source: Mic/Aux)
+00:05:35.440: 
+00:05:36.336: adding 21 milliseconds of audio buffering, total audio buffering is now 42 milliseconds (source: Mic/Aux)
+00:05:36.336: 
+00:06:41.809: xshm-input: Geometry 1920x1080 @ 0,0
+00:06:41.839: User added source 'cohetes' (xshm_input) to scene 'Scene'
+00:06:49.729: ---------------------------------
+00:06:49.729: [FFmpeg NVENC encoder: 'simple_video_stream'] settings:
+00:06:49.729: 	encoder:      NVIDIA NVENC H.264 (FFmpeg)
+00:06:49.729: 	rate_control: CBR
+00:06:49.729: 	bitrate:      2500
+00:06:49.729: 	cqp:          0
+00:06:49.729: 	keyint:       250
+00:06:49.729: 	preset:       p6
+00:06:49.729: 	tuning:       hq
+00:06:49.729: 	multipass:    qres
+00:06:49.729: 	profile:      high
+00:06:49.729: 	width:        1280
+00:06:49.729: 	height:       720
+00:06:49.729: 	b-frames:     2
+00:06:49.729: 	psycho-aq:    1
+00:06:49.729: 	GPU:          0
+00:06:49.729: 
+00:06:50.382: ---------------------------------
+00:06:50.398: [FFmpeg aac encoder: 'simple_aac'] bitrate: 160, channels: 2, channel_layout: stereo
+00:06:50.398: 
+00:06:50.413: ==== Recording Start ===============================================
+00:06:50.413: [ffmpeg muxer: 'simple_file_output'] Writing file '/home/wolverine/2023-01-12 00-06-49.mkv'...
+00:07:18.037: [ffmpeg muxer: 'simple_file_output'] Output of file '/home/wolverine/2023-01-12 00-06-49.mkv' stopped
+00:07:18.037: Output 'simple_file_output': stopping
+00:07:18.037: Output 'simple_file_output': Total frames output: 798
+00:07:18.037: Output 'simple_file_output': Total drawn frames: 829
+00:07:18.038: ==== Recording Stop ================================================
+00:07:18.042: Video stopped, number of skipped frames due to encoding lag: 2/828 (0.2%)

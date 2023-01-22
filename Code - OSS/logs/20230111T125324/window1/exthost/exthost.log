@@ -1,0 +1,9 @@
+2023-01-11 12:53:31.932 [info] Extension host with pid 1195 started
+2023-01-11 12:53:31.972 [info] ExtensionService#_doActivateExtension vscode.git-base, startup: true, activationEvent: '*'
+2023-01-11 12:53:32.339 [info] ExtensionService#_doActivateExtension vscode.github, startup: true, activationEvent: '*'
+2023-01-11 12:53:32.395 [info] Eager extensions activated
+2023-01-11 12:53:32.404 [info] ExtensionService#_doActivateExtension vscode.debug-auto-launch, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 12:53:32.404 [info] ExtensionService#_doActivateExtension vscode.emmet, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 12:53:32.404 [info] ExtensionService#_doActivateExtension vscode.merge-conflict, startup: false, activationEvent: 'onStartupFinished'
+2023-01-11 14:00:45.572 [info] Extension host terminating: received terminate message from renderer
+2023-01-11 14:00:45.575 [info] Extension host with pid 1195 exiting with code 0

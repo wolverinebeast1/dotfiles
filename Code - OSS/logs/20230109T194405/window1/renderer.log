@@ -1,0 +1,3 @@
+2023-01-09 19:44:06.905 [info] Initial editor state {"filesToOpenOrCreate":[{"fileUri":{"$mid":1,"path":"/home/wolverine/Documents/C/zombies.cpp","scheme":"file"},"type":1,"exists":true,"options":{}}],"filesToDiff":[],"filesToMerge":[]}
+2023-01-09 19:44:10.363 [info] [perf] Render performance baseline is 31ms
+2023-01-09 19:44:17.564 [error] Error while registering log channel file:///home/wolverine/.config/Code%20-%20OSS/logs/20230109T194405/userDataSync.log Timed out while waiting for file to be created

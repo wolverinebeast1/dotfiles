@@ -1,0 +1,5 @@
+2022/12/27-13:58:22.713 7c9 Creating DB /home/wolverine/.config/discord/Local Storage/leveldb since it was missing.
+2022/12/27-13:58:22.805 7c9 Reusing MANIFEST /home/wolverine/.config/discord/Local Storage/leveldb/MANIFEST-000001
+2022/12/27-14:01:33.654 7ba Level-0 table #5: started
+2022/12/27-14:01:33.704 7ba Level-0 table #5: 1287434 bytes OK
+2022/12/27-14:01:33.736 7ba Delete type=0 #3

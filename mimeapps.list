@@ -1,0 +1,9 @@
+[Default Applications]
+video/mp4=vlc.desktop
+application/pdf=firefox.desktop
+video/x-matroska=vlc.desktop
+
+[Added Associations]
+video/mp4=vlc.desktop;
+application/pdf=firefox.desktop;
+video/x-matroska=vlc.desktop;
