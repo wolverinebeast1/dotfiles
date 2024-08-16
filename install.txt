@@ -1,0 +1,23 @@
+
+#NOTE: An script will be written for doing the steps below 
+
+
+#Step 1
+Download the nerd fonts at "nerdfonts.com/font-downloads"
+
+#Step 2
+
+Go the directory and copy the .zip file to ~/.local/share/fonts
+if the fonts directory isnt created , create it by
+mkdir -p ~/.local/share/fonts
+
+#Step 3 
+Go to ~/.local/share/fonts directory and unzip the .zip file using unzip command utility. If its not installed , install by running
+sudo pacman -Sy unzip -> Here I assume you use arch btw:)
+
+#Step 4
+Run fc-cache -fv command to refresh the fonts cache and you are good to go
+
+#Step 5 
+If you use kitty terminal like I do you can list all the fonts available by running
+kitty +list-fonts -psnames
