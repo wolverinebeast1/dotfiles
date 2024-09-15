@@ -4,6 +4,9 @@
 eval "$(oh-my-posh init zsh --config ~/ohmyposh_themes/sonicboom.omp.json)"
 #Aliases:
 alias ls='lsd' #replacing ls to lsd
+alias ll='ls -l'
+alias la='ls -a'
+alias lla='ls -la'
 alias cat='bat' #replacing cat to bat
 alias install='sudo pacman -S' #alias to install packages
 alias sync='sudo pacman -Sy' #alias to sync mirrors
@@ -14,6 +17,7 @@ alias vim='nvim' #replacing classic with neovim
 alias movies='sudo mount -o rw /dev/sdb1 /media/movies' #temporary -> fstab
 alias night='redshift -O 3700K' #redshift
 alias pip='venv/bin/pip' #using pip as virtual environment
+alias icat='kitten icat'
 #Directories for zinit
 
 ZINIT_HOME="${XDG_DATA_HOME:-${HOME}/.local/share}/zinit/zinit.git"
@@ -48,8 +52,6 @@ SAVEHIST=$HISTSIZE
 # Completion styling
 zstyle ':completion:*' matcher-list 'm:{a-z}={A-Za-z}'
 
-#created by pipx
-export PATH="$PATH:/home/arch/.local/bin"
 # Zoxide configuration
 eval "$(zoxide init zsh)"
 export GTK_THEME=Dracula

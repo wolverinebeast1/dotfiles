@@ -20,9 +20,7 @@
 /.local/*
 
 # Include specific subdirectories within .config
-# !/.config/qtile/
 !/.config/i3/
-!/.config/hypr/
 !/.config/nvim/
 !/.config/ranger/
 !/.config/polybar/

@@ -6,21 +6,36 @@ return {
 		config = function()
 			require("mason").setup()
 		end,
-	},
-	dependencies = {
-		"WhoIsSethDaniel/mason-tool-installer.nvim",
-	},
+	}, --Tool installer
+	"WhoIsSethDaniel/mason-tool-installer.nvim",
 	{
-		--Configuring default packages
+		--Lsp installer
 		"williamboman/mason-lspconfig.nvim",
 		config = function()
-			require("mason-lspconfig").setup({
+			--for consiciness
+			local mason_lspconfig = require("mason-lspconfig")
+			--for consiciness
+			local mason_tool_installer = require("mason-tool-installer")
+
+			mason_lspconfig.setup({
 				ensure_installed = {
 					"lua_ls",
 					"pyright",
 					"clangd",
 					"bashls",
+					"ruff_lsp",
 				},
+			})
+			mason_tool_installer.setup({
+				ensure_installed = {
+					"shellcheck",
+					"pylint",
+					"isort",
+					"black",
+					"beautysh",
+					"standardjs",
+				},
+
 			})
 		end,
 	},
@@ -34,7 +49,7 @@ return {
 			lspconfig.ruff_lsp.setup({ --for python too (optional)
 				init_options = {
 					settings = {
-						-- Any extra CLI arguments for `ruff` go here.
+						-- Any extra CLI arguments for ruff go here.
 						args = {},
 					},
 				},
@@ -47,3 +62,4 @@ return {
 		end,
 	},
 }
+

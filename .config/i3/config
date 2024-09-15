@@ -173,6 +173,7 @@ exec_always --no-startup-id $HOME/.config/polybar/launch.sh
 bindsym $mod+c exec i3lock -i ~/Pictures/leafs.png
 # bindsym $mod+p exec scrot -s NOTE: You can use scrot but for some reason it does not work as expected
 bindsym $mod+p exec --no-startup-id maim -s ~/screenshots/screenshot-$(date +'%Y-%m-%d_%H-%M-%S').png
+bindsym $mod+shift+p exec poweroff
 #Add gaps to the windows
 for_window [class="^.*"] border pixel 3
 gaps outer 15
